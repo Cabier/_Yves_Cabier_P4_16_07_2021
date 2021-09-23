@@ -480,6 +480,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding-right: 10px;
 }
 
 .icon-lg {
@@ -705,6 +706,7 @@ p {
 .social {
     
     margin: auto auto auto auto;
+    padding-left: 8px;
 }
 
 h2 {
