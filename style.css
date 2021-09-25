@@ -363,6 +363,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.col-sm-12 p {
+    font-size: 15px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -746,6 +749,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 98%;
 }
 
 .portfolio-row {
@@ -1046,8 +1050,32 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb {
+        width:98%;
+    }
+    
+    .img-responsive portfolio-thumb {
+        width:98%;
+        margin: 0;
+    }
+    a[data-lightbox]:hover img {
+        width:100%;
+    }
+    a[data-lightbox]:hover img {
+        margin: 0;
+    }
 }
-
+@media screen and (max-width:414px) and (min-width:736px) {
+    .portfolio-thumb {
+        width: 98%;
+    }
+    .social {
+        margin: 0;
+        display: flex;
+        
+        
+    }
+}
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
