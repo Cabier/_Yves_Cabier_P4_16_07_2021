@@ -1,3 +1,6 @@
+* {
+    font-display: swap;
+}
 body {
     margin: 0;
     padding: 0;
@@ -6,11 +9,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     filter: contrast(120%);
-}
-@font-face {
-    
-    font-display: swap;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 }
 
 a,
@@ -627,6 +625,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    font-display: swap;
 }
 
 a[data-lightbox]:hover img {
