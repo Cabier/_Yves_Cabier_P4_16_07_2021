@@ -579,8 +579,15 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 1);
     box-shadow: none;
+    padding-bottom:10px;
+}
+.form-group {
+    padding-bottom: 10px;
+}
+#message {
+    margin-top: 15px;
 }
 
 .scrollToTop {
