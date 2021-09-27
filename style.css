@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     filter: contrast(120%);
 }
+@font-face {
+    
+    font-display: swap;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+}
 
 a,
 button {
