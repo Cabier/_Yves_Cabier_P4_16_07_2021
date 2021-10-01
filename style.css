@@ -1,6 +1,4 @@
-* {
-    font-display: swap;
-}
+
 body {
     margin: 0;
     padding: 0;
@@ -62,11 +60,15 @@ a:hover {
 .bloc-sm--2 {
    display: flex; 
    padding-top: 25px;
-   justify-content: center;
+   
 }
 .nav--2 {
    right: 0; 
-   float: right;
+   
+}
+.container--2 {
+    display: flex;
+    justify-content: space-between;
 }
 .site-navigation--2 {
     right: 20px;
@@ -79,7 +81,9 @@ a:hover {
     padding-bottom: 10px;
 }
 .row--2 {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    
     
 }
 navbar.nav--2 li {
@@ -592,10 +596,7 @@ button {
     padding-bottom:10px;
     margin-top: 10px;
 }
-.row {
-    display: flex;
-    justify-content: space-around;
-}
+
 .form-group {
     padding-bottom: 10px;
     padding-top: 10px;
@@ -655,7 +656,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    font-display: swap;
+   
 }
 
 a[data-lightbox]:hover img {
