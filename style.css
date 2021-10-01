@@ -70,6 +70,9 @@ a:hover {
     display: flex;
     justify-content: space-between;
 }
+.navbar-brand--2 {
+    padding-bottom: 15px;
+}
 .site-navigation--2 {
     right: 20px;
     top:20px;
@@ -97,6 +100,7 @@ list-style: none;
     display: flex;
     justify-content:center;
 }
+
 .col-sm-6--2 p {
 font-size: 16px;
 padding-left: 25px;
@@ -329,7 +333,7 @@ padding-left: 25px;
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
+    padding-right: 20px;
     padding-left: 0;
 }
 
@@ -869,7 +873,7 @@ h4 {
     padding: 18px;
     border-radius: 200px;
     background: black;
-    margin: 20px !important;
+   
 
 }
 
@@ -1156,6 +1160,15 @@ h4 {
     a[data-lightbox]:hover img {
         margin: 0;
     }
+    .social--2 {
+        margin: 0;
+        display: flex;
+        color: #FFF;
+        font-size: 10px;
+        justify-content: space-around;
+    }
+    
+    
 }
 @media screen and (max-width:414px) and (min-width:736px) {
     .portfolio-thumb {
@@ -1167,6 +1180,15 @@ h4 {
         
         
     }
+    .social--2 {
+        margin: 0;
+        display: flex;
+        color: #FFF;
+        font-size: 10px;
+        justify-content: space-around;
+    }
+    
+    
 }
 @media (max-width: 767px) {
     .bloc-mob-center-text {
